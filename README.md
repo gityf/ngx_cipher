@@ -1,22 +1,22 @@
 ngx_cipher
 =========
 # cipher library
-`lua
+```lua
 	require "cipher"
-`
+```
 ## md5
-`lua
+```lua
 	cipher.md5('data')
-`
+```
 ## sha1
-`lua
+```lua
 	cipher.sha1('data')
-`
+```
 ## sha256
-`lua
+```lua
 	cipher.sha256('data')
-`
+```
 ## sha512
-`lua
+```lua
 	cipher.sha512('data')
-`
+```
