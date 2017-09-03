@@ -25,7 +25,7 @@ $(PROJECT) : $(OBJS)
 	@echo "+--------------------------------------------+"
 	@echo "|            Finish compilation              |"
 	@echo "+--------------------------------------------+"
-	@echo "|         Thanks using libcipher.a           |"
+	@echo "|         Thanks using cipher.so             |"
 	@echo "|   copyright(c)Wang Yaofu  voipman@qq.com   |"
 	@echo "+--------------------------------------------+"
 
