@@ -154,6 +154,9 @@ void hmac_sha256(unsigned char *key, int key_len,
     SHA256_Bytes(&context, hmac, SHA256_DIGEST_SIZE);     /* then results of 1st hash */
     SHA256_Final(&context, hmac);          /* finish up 2nd pass */
 }
+
+#undef KEY_IOPAD_SIZE
+#define KEY_IOPAD_SIZE 128
 void hmac_sha384(unsigned char *key, int key_len,
     unsigned char *text, int text_len, unsigned char *hmac) {
     SHA512_State context;
